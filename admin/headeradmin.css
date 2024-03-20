@@ -1,0 +1,64 @@
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #FF811B;
+}
+
+.userimage {
+    width: 40px;
+    height: auto;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+}
+
+.navlinks li {
+    margin: 0 10px;
+    position: relative; /* Add position relative to create a stacking context for the dropdown */
+}
+
+ul li ul.dropdown {
+    background: white;
+    position: absolute;
+    z-index: 999;
+    margin-top: 5px;
+    padding: 5px;
+    right: 0;
+    min-width: 100%;
+    display: none;
+    border-radius: 8px;
+}
+
+header{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom ;
+}
